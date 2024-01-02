@@ -83,4 +83,9 @@ fn main() {
     arr[0] = -1;
     println!("Array 1st: {}", arr[0]);
     // arrays must be initialized: arr = [] -> error!
+
+    println!("\nTypes example:");
+    let a: u8 = 8;
+    let b = a; // implicity u8: u32 -> error"
+    println!("a = {}, B = {}", a, b);
 }
